@@ -34,7 +34,7 @@ type Initialization struct {
 	ChartID string
 
 	// Assets host
-	AssetsHost string `default:"https://go-echarts.github.io/go-echarts-assets/assets/"`
+	AssetsHost string `default:"assets/"`
 
 	// Theme of chart
 	Theme string `default:"white"`
